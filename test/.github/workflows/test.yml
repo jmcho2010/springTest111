@@ -1,0 +1,14 @@
+name: Hello World
+
+on: [push]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 인사하기
+        run: echo "안녕하세요, GitHub Actions!"
+      
+      - name: 날짜 출력
+        run: date
