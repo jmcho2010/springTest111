@@ -1,0 +1,11 @@
+name: Test GitHub Action Demo-02
+run-name: Run GitHub Actions-02 🚀
+on: [push]
+
+jobs:
+  Test-GitHub-Action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo-02
+        run: |
+          echo "TEST ECHO-02"
